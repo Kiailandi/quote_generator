@@ -1,0 +1,30 @@
+{
+  "name": "quote_generator",
+  "version": "1.0.0",
+  "description": "Display quotes from forismatic.com using Vue.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiailandi/quote_generator.git"
+  },
+  "keywords": [
+    "node",
+    "vue.js",
+    "quote",
+    "forismatic.com"
+  ],
+  "author": "Kiailandi kiailandi.github.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiailandi/quote_generator/issues"
+  },
+  "homepage": "https://github.com/Kiailandi/quote_generator#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "request": "^2.81.0",
+    "vue-resource": "^1.3.4"
+  }
+}

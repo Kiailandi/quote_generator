@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Quote generator</title>
+    <meta name="description" content="Display quotes from forismatic.com using Vue.js">
+    <meta name="author" content="Kiailandi Kiailandi.github.io">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="app" v-bind:style="styleObject">
+        <p v-bind:title="link">{{ quote }}<br>- {{author}}</p>
+    </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vue-resource@1.3.4/dist/vue-resource.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
