@@ -16,6 +16,8 @@ app.get('/quote', function(req, res){
     });
 })
 
-app.listen(3000, function () {
-  console.log('Quote generator listening on port 3000!')
-});
+var server = app.listen(process.env.PORT, "0.0.0.0",function () {
+    var host = server.address().address;
+    var port = server.address().port;
+    console.log('Web server started at http://%s:%s', host, port);
+  });
