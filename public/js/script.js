@@ -6,10 +6,6 @@ const colors = [
         foreground: '#FFF'
     },
     {
-        background: '#4ABDAC',
-        foreground: '#FC4A1A'
-    },
-    {
         background: '#F4F4F4',
         foreground: '#373737'
     },
